@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38" started-at="2021-11-09T15:37:34 IST" finished-at="2021-11-09T15:37:34 IST">
+    <groups>
+      <group name="Reg">
+        <method signature="Grouping1.test1()[pri:0, instance:com.cts.Grouping1@36b4cef0]" name="test1" class="com.cts.Grouping1"/>
+      </group> <!-- Reg -->
+      <group name="smoke">
+        <method signature="Grouping2.test12()[pri:0, instance:com.cts.Grouping2@5bb21b69]" name="test12" class="com.cts.Grouping2"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Grouping1.test1()[pri:0, instance:com.cts.Grouping1@36b4cef0]" name="test1" class="com.cts.Grouping1"/>
+        <method signature="Grouping1.test2()[pri:0, instance:com.cts.Grouping1@36b4cef0]" name="test2" class="com.cts.Grouping1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="38" started-at="2021-11-09T15:37:34 IST" finished-at="2021-11-09T15:37:34 IST">
+      <class name="com.cts.Grouping2">
+        <test-method status="PASS" signature="test12()[pri:0, instance:com.cts.Grouping2@5bb21b69]" name="test12" duration-ms="1" started-at="2021-11-09T15:37:34 IST" finished-at="2021-11-09T15:37:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+      </class> <!-- com.cts.Grouping2 -->
+      <class name="com.cts.Grouping1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.cts.Grouping1@36b4cef0]" name="test1" duration-ms="6" started-at="2021-11-09T15:37:34 IST" finished-at="2021-11-09T15:37:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.cts.Grouping1@36b4cef0]" name="test2" duration-ms="1" started-at="2021-11-09T15:37:34 IST" finished-at="2021-11-09T15:37:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.cts.Grouping1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
